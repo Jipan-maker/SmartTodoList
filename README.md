@@ -1,48 +1,48 @@
 # Smart Todo List
 
-Smart Todo List is a Java Swing-based desktop application designed to help you manage your tasks efficiently. It features a modern, dark-themed UI with a dashboard for quick insights and "smart" editing/deleting capabilities.
+Smart Todo List adalah aplikasi desktop berbasis Java Swing yang dirancang untuk membantu Anda mengelola tugas dengan efisien. Aplikasi ini memiliki antarmuka (UI) bertema gelap yang modern dengan dashboard untuk statistik cepat dan kemampuan edit/hapus yang "pintar".
 
-## Features
+## Fitur
 
-- **Dashboard**: Visual statistics for Today, Scheduled, All, and Flagged tasks.
-- **Task Management**: Add, edit, and delete tasks with ease.
-- **Smart Actions**: 
-  - **Smart Edit**: Select a task by checkbox or row highlight to edit. Refuses multiple selections to prevent errors.
-  - **Smart Delete**: Bulk delete via checkboxes or single delete via row selection.
-- **Filtering**: Filter tasks by "Today", "Scheduled", "All", or "Labeled".
-- **Data Persistence**: Tasks are saved to `tasks.csv` automatically.
+- **Dashboard**: Statistik visual untuk tugas Hari Ini (Today), Terjadwal (Scheduled), Semua (All), dan Ditandai (Flagged).
+- **Manajemen Tugas**: Tambah, edit, dan hapus tugas dengan mudah.
+- **Aksi Pintar (Smart Actions)**:
+  - **Smart Edit**: Pilih tugas melalui checkbox atau sorotan baris untuk mengedit. Mencegah pemilihan ganda untuk menghindari kesalahan.
+  - **Smart Delete**: Hapus banyak tugas sekaligus melalui checkbox atau hapus satu per satu melalui pemilihan baris.
+- **Filter**: Filter tugas berdasarkan "Hari Ini", "Terjadwal", "Semua", atau "Berlabel".
+- **Penyimpanan Data**: Tugas disimpan secara otomatis ke file `tasks.csv`.
 
-## Prerequisites
+## Prasyarat
 
-- Java Development Kit (JDK) 8 or higher.
+- Java Development Kit (JDK) 8 atau lebih tinggi.
 
-## How to Run
+## Cara Menjalankan
 
-1.  **Clone the repository:**
+1.  **Clone repository ini:**
     ```bash
     git clone https://github.com/Jipan-maker/SmartTodoList.git
     ```
-2.  **Navigate to the project directory:**
+2.  **Masuk ke direktori proyek:**
     ```bash
     cd SmartTodoList
     ```
-3.  **Compile the source code:**
+3.  **Kompilasi kode sumber:**
     ```bash
     javac -d bin src/model/*.java src/controller/*.java src/view/*.java
     ```
-    *(Note: Create a `bin` directory if it doesn't exist: `mkdir bin`)*
+    *(Catatan: Buat folder `bin` jika belum ada: `mkdir bin`)*
 
-4.  **Run the application:**
+4.  **Jalankan aplikasi:**
     ```bash
     java -cp bin view.TodoApp
     ```
 
-## Project Structure
+## Struktur Proyek
 
-- `src/model`: Contains data models (e.g., `Task.java`).
-- `src/controller`: Contains logic and data management (e.g., `TaskManager.java`).
-- `src/view`: Contains UI components (e.g., `TodoApp.java`, `DashboardCard`).
+- `src/model`: Berisi model data (contoh: `Task.java`).
+- `src/controller`: Berisi logika dan manajemen data (contoh: `TaskManager.java`).
+- `src/view`: Berisi komponen antarmuka pengguna (contoh: `TodoApp.java`, `DashboardCard`).
 
-## Author
+## Penulis
 
 **Jipan-maker**
