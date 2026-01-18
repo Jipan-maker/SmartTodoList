@@ -9,7 +9,7 @@ Smart Todo List adalah aplikasi desktop berbasis Java Swing yang dirancang untuk
 - **Aksi Pintar (Smart Actions)**:
   - **Smart Edit**: Pilih tugas melalui checkbox atau sorotan baris untuk mengedit. Mencegah pemilihan ganda untuk menghindari kesalahan.
   - **Smart Delete**: Hapus banyak tugas sekaligus melalui checkbox atau hapus satu per satu melalui pemilihan baris.
-- **Filter**: Filter tugas berdasarkan "Hari Ini", "Terjadwal", "Semua", atau "Berlabel".
+- **Filter**: Filter tugas berdasarkan "Today", "Scheduled", "All", atau "Flagged".
 - **Penyimpanan Data**: Tugas disimpan secara otomatis ke file `tasks.csv`.
 
 ## Prasyarat
@@ -42,7 +42,3 @@ Smart Todo List adalah aplikasi desktop berbasis Java Swing yang dirancang untuk
 - `src/model`: Berisi model data (contoh: `Task.java`).
 - `src/controller`: Berisi logika dan manajemen data (contoh: `TaskManager.java`).
 - `src/view`: Berisi komponen antarmuka pengguna (contoh: `TodoApp.java`, `DashboardCard`).
-
-## Penulis
-
-**Jipan-maker**
